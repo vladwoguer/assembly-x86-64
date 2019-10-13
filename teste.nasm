@@ -1,6 +1,8 @@
 global maisUm:
 
 maisUm:
-  add esi, 1
+  add edi, 1
+  mov eax, edi
+  ret
 
 
